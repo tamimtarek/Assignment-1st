@@ -28,3 +28,32 @@
     padding-left: 344px;
     
 }
+/* Main section */
+
+.New-year{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding-top: 120px;
+}
+.discount{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+.deal{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+.categories{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+.Happy-png{
+    width: 800px;
+    height: 500px;
+}
+    
