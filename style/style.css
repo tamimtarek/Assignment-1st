@@ -6,8 +6,10 @@
     font-family: 'Merriweather', serif;
     color: #fff;
     text-align: center;
-    background:url('../resources/Banner\ Image.png');
+    background:rgba(0,0,0,0.5) url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
     background-position: center;
     width: 1320px;
     height: 600px;
@@ -28,9 +30,11 @@
     padding-left: 344px;
     
 }
-/* Main section */
+/* New year discount Section */
 
 .New-year{
+    width: 1320px;
+    height: 700px;
     text-align: center;
     font-family: 'Inter', sans-serif;
     padding-top: 120px;
@@ -57,16 +61,21 @@
     height: 500px;
 }
 
+/* Midnight section */
+
  .night-party{
     display: flex;
-    background-image: url('../resources/Vectorrr.png');
+    background:rgba(0,0,0,0.6) url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
     margin-top: 100px;
     margin-left: 25px;
     justify-content: space-around;
+    
  }   
 .party-title{
     color: #FFF;
@@ -81,7 +90,7 @@
 }
 .party-description{
     color: rgba(255, 255, 255, 0.80);
-    
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
     width: 690px;
@@ -103,4 +112,33 @@
     height: 465px;
     padding-top: 70px;
     padding-right: 110px;
+}
+/* Hotel Reserve */
+
+.Hotel-reserve{
+    width: 1320px;
+    height: 482px;
+    background-color: rgb(237, 243, 243);
+    margin-top: 70px;
+    margin-left: 25px;
+    border-radius: 16px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-top: 100px;
+}
+.red{
+    color: #F00;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
+    background: #F00;
+    padding: 16px 32px;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
 }
