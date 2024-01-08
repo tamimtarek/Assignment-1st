@@ -214,13 +214,32 @@
 .Holyday-sale{
     width: 1320px;
     text-align: center;
-    background:url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
+    background: url('../resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
-    background-position:right bottom;
+    background-position:bottom;
     width: 1320px;
     margin-left: 25px;
 }
-
+.sale-image{
+    display: flex;
+    justify-content: space-around;
+}
+.box-img{
+    margin-right: 140px;
+}
+.vejal{
+    position: absolute;
+    margin-left: -333px;
+    margin-top: 1px;
+}
+.discount-fifty{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    margin-left: -434px;
+    margin-top: 77px;
+}
 .sale-title{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -245,12 +264,7 @@
     margin-left: 154px;
     margin-top: 28px;
 }
-.discount-fifty{
-    width: 200px;
-    height: 200px;
-    margin-bottom: 134px;
-    margin-right: 300px;
-}
+
 
 /* Product section */
 
@@ -326,6 +340,7 @@
 }
 .s-btn{
     margin-top: 48px;
+    gap: 0;
 }
 .user-s{
     width: 400px;
