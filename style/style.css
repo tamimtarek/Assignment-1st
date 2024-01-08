@@ -99,13 +99,15 @@
     line-height: 30px;
     text-align: left;
 }
-.join{
+.btn{
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    padding-left: 152px;
-    padding-top: 73px;
+    margin-left: 157px;
+    margin-top: 70px;
+    background: transparent;
+    border: none;
 }
 .new-year-img{
     width: 320px;
@@ -132,7 +134,7 @@
 .red{
     color: #F00;
 }
-.btn{
+.btn2{
     font-size: 20px;
     font-weight: 700;
     margin-top: 48px;
@@ -141,4 +143,105 @@
     color: #FFF;
     border-radius: 10px;
     border: none;
+}
+
+/* Subscribe and Email Section */
+.subscribe{
+    text-align: center;
+    width: 1320px;
+    height: 616px;
+    margin-left: 25px;
+    margin-top: 70px;
+    border-radius: 16px;
+    background-color: rgb(237, 243, 243);
+}
+.mail{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+}
+.s-title{
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+.s-paragraph{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 212px;
+    margin-top: 12px;
+}
+.s-btn{
+    margin-top: 48px;
+}
+.user-s{
+    width: 400px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+    padding: 30px;
+}
+.sub-btn{
+    width: 210px;
+    height: 72px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #F00;
+    color: #FFF;
+    border: none;
+}
+/* Footer Section */
+.footer{
+    background: #070211;
+    width: 1370px;
+    height: 610px;
+    margin-top: 70px;
+    color: #FFF;
+    font-family: Inter;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 54px;
+}
+.address{
+    width: 375px;
+    height: 80px;
+    font-weight: 400;
+    padding-left: 115px;
+}
+.phone-web{
+    padding-right: 187px;
+}
+hr{
+    width: 1115px;
+    border: 1px solid;
+    margin-left: 115px;
+    color: rgba(255, 255, 255, 0.15);
+}
+.social-icon{
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.social-icon >img{
+    gap: 24px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.copy{
+    margin-top: 100px;
+    padding-left: 115px;
+}
+.unsubsribe{
+    margin-top: 100px;
+    padding-right: 115px;
 }
