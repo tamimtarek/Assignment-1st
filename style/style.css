@@ -145,6 +145,50 @@
     border: none;
 }
 
+/* Holyday Sale section */
+
+.Holyday-sale{
+    width: 1320px;
+    text-align: center;
+    background: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 1320px;
+    margin-left: 25px;
+}
+
+.sale-title{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+.sale-heading{
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;;
+    font-weight: 900;
+    margin-top: 16px;
+}
+.sale-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1048px;
+    margin-left: 154px;
+    margin-top: 28px;
+}
+.sale-image{
+}
+.lady{
+    margin-bottom: 224px;
+    
+
+}
+
 /* Product section */
 
 .Product{
@@ -156,7 +200,7 @@
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     margin-left: 16px;
 }
 .p-heading{
@@ -271,8 +315,8 @@ hr{
     margin-top: 48px;
     margin-bottom: 48px;
 }
-.social-icon >img{
-    gap: 24px;
+.social-icon img{
+    margin: 20px;
 }
 .copyright{
     display: flex;
@@ -284,5 +328,6 @@ hr{
 }
 .unsubsribe{
     margin-top: 100px;
-    padding-right: 115px;
+    padding-right: 142px;
+     
 }
