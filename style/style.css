@@ -145,14 +145,77 @@
     border: none;
 }
 
+/* new best offer section */
+
+.best-offer{
+    width: 1320px;
+    margin-left: 25px;
+    margin-top: 70px;
+    display: flex;
+}
+.offer-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 70px;
+    margin-left: ;
+}
+.offer-heading{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+.offer-description{
+    width: 390px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+}
+.offer-image {
+    width: 360px;
+    height: 360px;
+    padding: 20px;
+    border: 20px solid red;
+    border-radius: 50%;
+}
+.offer-year{
+    text-align: center;
+    margin-right: 150px;
+}
+.year-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+.year-description{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 142px;
+    margin-top: 16px;
+    margin-bottom: 43px;
+}
+
 /* Holyday Sale section */
 
 .Holyday-sale{
     width: 1320px;
     text-align: center;
-    background: url('../resources/Rectangle\ 2.png');
+    background:url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position:right bottom;
     width: 1320px;
     margin-left: 25px;
 }
@@ -181,12 +244,11 @@
     margin-left: 154px;
     margin-top: 28px;
 }
-.sale-image{
-}
-.lady{
-    margin-bottom: 224px;
-    
-
+.discount-fifty{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 134px;
+    margin-right: 300px;
 }
 
 /* Product section */
